@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: akheron/dependabot-cron-action@v1
         with:
-          token: ${{ secrets.GITHUB_PAT }}
+          token: ${{ secrets.GH_TOKEN }}
