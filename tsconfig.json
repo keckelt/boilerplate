@@ -1,13 +1,18 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "module": "es6",
-    "target": "es6",
-    "jsx": "react",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
     "sourceMap": true,
-    "noImplicitAny": false,
-    "allowJs": true,
-    "moduleResolution": "node", // find node modules (e.g. bla-lib) when writing "import bla from 'bla-lib';"
-    "importHelpers": true
-  }
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true
+  },
+  "include": ["./src"]
 }
