@@ -9,7 +9,7 @@
 2. `cd` into folder
 3. `npm install`
 4. `npm start`
-5. Open URL (.e.g http://localhost:8080/) in browser
+5. Open URL (.e.g http://localhost:3000/) in browser
 
 
 # GitHub Actions
